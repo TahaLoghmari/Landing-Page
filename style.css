@@ -9,8 +9,6 @@ body {
 }
 .hero {
   background-color: #1f2937;
-  padding-left: 400px;
-  padding-right: 400px;
   display: flex;
   flex-direction: column;
   gap: 80px;
@@ -49,7 +47,7 @@ p {
   display: flex;
   flex-direction: column;
   gap: 12px;
-  align-items: flex-start
+  align-items: flex-start;
 }
 .text,
 .Hi {
@@ -67,4 +65,66 @@ button {
   border: 0;
   border-radius: 10%;
   width: 100px;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+  margin-top: 45px;
+}
+.images {
+  display: flex;
+  gap: 45px;
+  justify-content: center;
+  align-items: center;
+}
+.image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+.image img {
+  width: 150px;
+  height: 150px;
+  border: blue 3px solid;
+  border-radius: 10%;
+  padding: 5px;
+}
+.info-title {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+}
+.image p {
+  color: black;
+}
+.quote,
+.info,
+.hero {
+  padding-left: 400px;
+  padding-right: 400px;
+}
+.quote {
+  margin-top: 100px;
+  background-color: #e5e7eb;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  display: flex;
+  flex-direction: column;
+}
+.quote p {
+  font-size: 36px;
+  font-weight: light;
+  font-style: italic;
+  color: #1f2937;
+}
+#Author {
+  font-size: 18px;
+  color: black;
+  font-weight: bold;
+  margin-left: auto;
 }
