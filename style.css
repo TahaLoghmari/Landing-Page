@@ -104,7 +104,8 @@ button {
 }
 .quote,
 .info,
-.hero {
+.hero,
+footer {
   padding-left: 400px;
   padding-right: 400px;
 }
@@ -127,4 +128,35 @@ button {
   color: black;
   font-weight: bold;
   margin-left: auto;
+}
+.sign-up {
+  padding: 50px;
+  margin-top: 100px;
+  margin-left: 400px;
+  margin-right: 400px;
+  background-color: #3882f6;
+  border-radius: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  margin-bottom: 100px;
+}
+.Action {
+  font-weight: bold;
+}
+.btn {
+  border: white 2px solid;
+  font-weight: bold;
+}
+footer p {
+  font-size: 18px;
+}
+footer {
+  background-color: #1f2937;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
